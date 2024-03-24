@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(26, 26, 26);
+  color: white;
+  font-family: Arial;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.move-button {
+  padding: 10px 13px;
+  background-color: transparent;
+  border: solid 3px white;
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-right: 8px;
+  transition: height 0.4s, width 0.4s, border-radius 0.4s;
+}
+
+.move-button:hover {
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.score {
+  margin-top: 60px;
+}
+
+.reset-score-button,
+.auto-play-button {
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.no-button,
+.yes-button {
+  background-color: white;
+  font-size: 10px;
+  padding: 4px 7px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.reset-score-button:hover,
+.auto-play-button:hover,
+.no-button:hover,
+.yes-button:hover {
+  opacity: 0.8;
+}
+
+.reset-score-button:active,
+.auto-play-button:active,
+.no-button:active,
+.yes-button:active {
+  opacity: 0.4;
+}
+
+.message-box {
+  margin-top: 10px;
+}
