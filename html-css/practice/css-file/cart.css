@@ -1,0 +1,43 @@
+body {
+  padding-bottom: 3000px;
+}
+
+.image {
+  position: relative;
+  display: inline-block;
+}
+
+.shirt-picture {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.stick {
+  position: absolute;
+  background-color: black;
+  color: white;
+  top: 10px;
+  right: 0;
+  padding: 8px 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom-overlay {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 300px;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-to-cart {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px 15px;
+}
